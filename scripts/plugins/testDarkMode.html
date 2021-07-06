@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+ <style>
+     #content {
+  background: rgb(248, 201, 201);
+  color: black;
+  height: 150px;
+}
+
+#content.dark-theme {
+  background: rgb(49, 51, 71);
+  color: white;
+}
+button {
+  background: white;
+  border: none;
+}
+
+img {
+  height: 50px;
+}
+ </style>
+</head>
+
+<body>
+    <div id="content">
+        This is content
+      </div>
+      <button id="change-theme-btn">Change</button>
+
+      <button onclick="handleDarkModeToggle()">
+        <img id="darkmode-icon"/>
+        </button>
+      <script>
+          document.getElementById('change-theme-btn').onclick = function() {
+  content.classList.toggle('dark-theme');
+}
+
+
+
+const darkmodeIcon = "https://uxwing.com/wp-content/themes/uxwing/download/01-user_interface/dark-mode.png"
+const lightmodeIcon = "https://uxwing.com/wp-content/themes/uxwing/download/01-user_interface/light-mode.png"
+
+const icon = document.getElementById("darkmode-icon");
+icon.src = lightmodeIcon
+
+function handleDarkModeToggle() {
+  if (icon.src == darkmodeIcon) {
+    icon.src = lightmodeIcon
+    console.log("Toggled to Light Mode")
+  } else {
+    icon.src = darkmodeIcon
+    console.log("Toggled to Dark Mode")
+  }
+}
+      </script>
+</body>
+
+</html>

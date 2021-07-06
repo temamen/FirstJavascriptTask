@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Creative CV</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+  <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+  <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+  <!-- <noscript> -->
+  <style type="text/css">
+    [data-aos] {
+      opacity: 1 !important;
+      transform: translate(0) scale(1) !important;
+    }
+
+    #content {
+      background: white;
+      color: black;
+      height: 150px;
+    }
+
+    #content.dark-theme {
+      background: black;
+      color: white;
+    }
+  </style>
+
+  <!-- </noscript> -->
+</head>
+
+<body id="top">
+  <header>
+    <div class="profile-page sidebar-collapse">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+        <div class="container">
+          <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Creative CV</a>
+            <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+              aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span
+                class="navbar-toggler-bar bar3"></span></button>
+          </div>
+          <div class="collapse navbar-collapse justify-content-end" id="navigation">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
+            </ul>
+            <img src="images/moon.png" id="iconMS">
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <div class="page-content">
+
+    <div></div>
+    <div class="profile-page">
+      <div class="wrapper">
+        <div class="page-header page-header-small" filter-color="green">
+          <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')"></div>
+          <div class="container">
+            <div class="content-center">
+              <!-- <form id="form1" runat="server"> -->
+              <!-- <img id="Picture" data-src="#" /> <br />
+            <input type='file' id="imgInp" accept="image/*" hidden="hidden" /> -->
+              <!-- </form> -->
+           
+
+              <div class="cc-profile-image"><a href="#">
+                <!-- --------------------------------------------------------------------------- -->
+                  <!-- <img id="Picture" data-src="#" /> <br /> -->
+                  <img id="Picture" src="images/imagRana.jpg" /> <br />
+                  <input type='file' id="imgInp" accept="image/*" hidden="hidden" /></a>
+                  <!-- ---------------------------------------------------------------------- -->
+              </div>
+              <!-- <div class="cc-profile-image"><a href="#"><img src="images/anthony.jpg" alt="Image"/></a></div> -->
+              <div class="h2 title" id="titMyName"></div>
+              <p>Web Developer, Graphic Designer, Photographer</p>
+              <!-- <p>I Am RANA<span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p> -->
+              <!-- <p> I am <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p>
+          <p class="category text-white"><span class="typed" data-typed-items="Web Developer, Graphic Designer,  Photographer"></span></p> -->
+              <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in"
+                data-aos-anchor="data-aos-anchor">Hire Me</a>
+              <a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+
+            </div>
+
+          </div>
+          <div class="section">
+            <div class="container">
+              <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
+                  title="Follow me on Facebook"><i class="fa fa-facebook"></i></a><a
+                  class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
+                  title="Follow me on Twitter"><i class="fa fa-twitter"></i></a><a
+                  class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
+                  title="Follow me on Google+"><i class="fa fa-google-plus"></i></a><a
+                  class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip"
+                  title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="about">
+      <div class="container">
+        <div class="card" data-aos="fade-up" data-aos-offset="10">
+          <div class="row">
+            <div class="col-lg-6 col-md-12">
+              <div class="card-body">
+                <div class="h4 mt-0 title">About</div>
+                <p>Hello! I am <span id="myName"></span> Web Developer, Graphic Designer and Photographer.</p>
+                <p>Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and
+                  FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills
+                  and experience. <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn
+                    More</a></p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-12">
+              <div class="card-body">
+                <div class="h4 mt-0 title">Basic Information</div>
+                <div class="row">
+                  <div class="col-sm-4"><strong class="text-uppercase">Birthdate:</strong></div>
+                  <div class="col-sm-8" id="Birthdate"></div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+                  <div class="col-sm-8" id="Email"></div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+                  <div class="col-sm-8" id="Phone"></div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+                  <div class="col-sm-8" id="Address"></div>
+                </div>
+                <div class="row mt-3">
+                  <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+                  <div class="col-sm-8" id="Language"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="skill">
+      <div class="container">
+        <div class="h4 text-center mb-4 title">Professional Skills</div>
+        <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="progress-container progress-primary"><span class="progress-badge">HTML</span>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                      data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="progress-container progress-primary"><span class="progress-badge">CSS</span>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                      data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                      data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="progress-container progress-primary"><span class="progress-badge">SASS</span>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                      data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="progress-container progress-primary"><span class="progress-badge">Bootstrap</span>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                      data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="progress-container progress-primary"><span class="progress-badge">Photoshop</span>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10"
+                      data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 ml-auto mr-auto">
+            <div class="h4 text-center mb-4 title">Calculator</div>
+            <div class="nav-align-center">
+              <ul class="nav nav-pills nav-pills-primary" role="tablist">
+                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development"
+                    role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
+                <!-- <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i
+                      class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+                <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i
+                      class="fa fa-camera" aria-hidden="true"></i></a></li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content gallery mt-5">
+          <div class="tab-pane active" id="web-development">
+            <div class="ml-auto mr-auto">
+              <div class="row">
+                <div class="col-md-4">...</div>
+                <div class="col-md-4">
+                  <!-- <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"> -->
+                  <!-- <a href="#web-development">
+                 </a> -->
+                  <div class="titleCalc"> Calculator</div>
+                  <table border="1">
+                    <tr>
+                      <td><input type="button" value="c" onclick="clr()" /> </td>
+                      <td colspan="3"><input type="text" id="edu" /></td>
+                      <!-- clr() function will call clr to clear all value -->
+                    </tr>
+                    <tr>
+                      <!-- creating buttons and assigning values-->
+                      <td><input type="button" value="+" onclick="dis('+')" /> </td>
+                      <td><input type="button" value="1" onclick="dis('1')" /> </td>
+                      <td><input type="button" value="2" onclick="dis('2')" /> </td>
+                      <td><input type="button" value="3" onclick="dis('3')" /> </td>
+                    </tr>
+                    <tr>
+                      <td><input type="button" value="-" onclick="dis('-')" /> </td>
+                      <td><input type="button" value="4" onclick="dis('4')" /> </td>
+                      <td><input type="button" value="5" onclick="dis('5')" /> </td>
+                      <td><input type="button" value="6" onclick="dis('6')" /> </td>
+                    </tr>
+                    <tr>
+                      <td><input type="button" value="*" onclick="dis('*')" /> </td>
+                      <td><input type="button" value="7" onclick="dis('7')" /> </td>
+                      <td><input type="button" value="8" onclick="dis('8')" /> </td>
+                      <td><input type="button" value="9" onclick="dis('9')" /> </td>
+                    </tr>
+                    <tr>
+                      <td><input type="button" value="/" onclick="dis('/')" /> </td>
+                      <td><input type="button" value="." onclick="dis('.')" /> </td>
+                      <td><input type="button" value="0" onclick="dis('0')" /> </td>
+                      <!-- Evaluating function call eval()-->
+                      <td><input type="button" value="=" onclick="solve()" /> </td>
+                    </tr>
+                    <script src="scripts/myMain.js"></script>
+                  </table>
+                  <!-- </div> -->
+
+                </div>
+                <div class="col-md-4">...</div>
+              </div>
+            </div>
+          </div>
+          <!---------------------------- Dark Mode---------------------------------- -->
+          <!-- <div id="content">
+        This is content
+      </div>
+      <button id="change-theme-btn">Change</button> -->
+
+          <div class="tab-pane" id="graphic-design" role="tabpanel">
+            <div class="ml-auto mr-auto">
+              <div class="row darkmode-div">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                  <div id="content">
+                    This is dark mode
+                  </div>
+                  <button id="change-theme-btn">Change</button>
+
+                </div>
+                <div class="col-md-4"></div>
+
+
+              </div>
+              <!-- </div>End Dive" -->
+            </div>
+
+            </button>
+          </div>
+          <div class="tab-pane" id="Photography" role="tabpanel">
+            <div class="ml-auto mr-auto">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a
+                      href="#Photography">
+                      <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image" />
+                        <figcaption>
+                          <div class="h4">Photoshoot</div>
+                          <p>Photography</p>
+                        </figcaption>
+                      </figure>
+                    </a></div>
+                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a
+                      href="#Photography">
+                      <figure class="cc-effect"><img src="images/photography-3.jpg" alt="Image" />
+                        <figcaption>
+                          <div class="h4">Wedding Photoshoot</div>
+                          <p>Photography</p>
+                        </figcaption>
+                      </figure>
+                    </a></div>
+                </div>
+                <div class="col-md-6">
+                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a
+                      href="#Photography">
+                      <figure class="cc-effect"><img src="images/photography-2.jpg" alt="Image" />
+                        <figcaption>
+                          <div class="h4">Beach Photoshoot</div>
+                          <p>Photography</p>
+                        </figcaption>
+                      </figure>
+                    </a></div>
+                  <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a
+                      href="#Photography">
+                      <figure class="cc-effect"><img src="images/photography-4.jpg" alt="Image" />
+                        <figcaption>
+                          <div class="h4">Nature Photoshoot</div>
+                          <p>Photography</p>
+                        </figcaption>
+                      </figure>
+                    </a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section" id="experience">
+      <!-- <button id="button" onclick="showhide(mydiv)">Show/Hide</button>
+<div id="showmehideme" style="display:none">
+    This div will show and hide on button click.
+</div> -->
+      <!--  configure  -->
+      <div class="container cc-experience">
+
+        <div class="h4 text-center mb-4 title">
+          <button id="button" class="btnPlus bg-primary" onclick="myFunction('showmehideme')">
+            <i class="fa fa-plus text-light" aria-hidden="true"></i></button>
+          Work Experience
+        </div>
+        <!-- ------------------------------------Work Experience ----------------------------->
+        <div id="showmehideme">
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                  <p>March 2016 - Present</p>
+                  <div class="h5">CreativeM</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+
+                  <div class="h5">
+                    Front End Developer
+                  </div>
+                  <p>Euismod massa scelerisque suspendisse fermentum habitant
+                    vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc
+                    inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta
+                    vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient
+                    aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                  <p>April 2014 - March 2016</p>
+                  <div class="h5">WebNote</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Web Developer</div>
+                  <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
+                    tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend
+                    primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros
+                    pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium
+                    molestie ultricies sollicitudin dui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                  <p>April 2013 - February 2014</p>
+                  <div class="h5">WEBM</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Intern</div>
+                  <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
+                    tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend
+                    primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros
+                    pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium
+                    molestie ultricies sollicitudin dui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- -----------------------------------Education ----------------------------->
+    <div class="section">
+      <div class="container cc-education">
+        <div class="h4 text-center mb-4 title">
+          <button id="button" class="btnPlus bg-primary" onclick="myFunction('showmehideme1')">
+            <i class="fa fa-plus text-light" aria-hidden="true"></i></button>
+          Education
+
+        </div>
+        <div id="showmehideme1">
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p>2013 - 2015</p>
+                  <div class="h5">Master's Degree</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Master of Information Technology</div>
+                  <p class="category">University of Computer Science</p>
+                  <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
+                    tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend
+                    primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros
+                    pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium
+                    molestie ultricies sollicitudin dui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p>2009 - 2013</p>
+                  <div class="h5">Bachelor's Degree</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Bachelor of Computer Science</div>
+                  <p class="category">University of Computer Science</p>
+                  <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
+                    tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend
+                    primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros
+                    pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium
+                    molestie ultricies sollicitudin dui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-education-header">
+                  <p>2007 - 2009</p>
+                  <div class="h5">High School</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">Science and Mathematics</div>
+                  <p class="category">School of Secondary board</p>
+                  <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis,
+                    tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend
+                    primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros
+                    pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium
+                    molestie ultricies sollicitudin dui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  
+   
+  <footer class="footer">
+    <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x "
+          aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x "
+          aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x"
+          aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x "
+          aria-hidden="true"></i></a></div>
+    <div class="h4 title text-center">Rana Abdullah Jaber</div>
+    <div class="text-center text-muted">
+      <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com"
+          target="_blank">TemplateFlip</a></p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('change-theme-btn').onclick = function () {
+      content.classList.toggle('dark-theme');
+    }
+  </script>
+  <script>
+    const disableDarkMode = () => {
+      body.classList.remove("dark-mode");
+      localStorage.setItem("darkMode", null)
+    }
+
+    if (darkMode == "enabled") {
+      enableDarkMode();
+    }
+
+    // Desktop Button
+    darkModeToggle.addEventListener('click', () => {
+      darkMode = localStorage.getItem("darkMode");
+      if (darkMode !== "enabled") {
+        enableDarkMode();
+      } else {
+        disableDarkMode();
+      }
+    })
+
+    // Footer button, optional. This is for if you have a second dark mode toggle button
+    //in the footer, just make sure the button is inside the footer tag, and it will be
+    //linked to this function.
+
+    darkModeToggleFooter.addEventListener('click', () => {
+      darkMode = localStorage.getItem("darkMode");
+      if (darkMode !== "enabled") {
+        enableDarkMode();
+      } else {
+        disableDarkMode();
+      }
+    })
+  </script>
+  <!-- Icon Dark Mode -->
+  <script>
+    var icon = document.getElementById("iconMS");
+    icon.onclick = function () {
+      document.body.classList.toggle("darkThem");
+      if (document.body.classList.contains("darkThem")) {
+        icon.src = "images/sun.png";
+
+      } else {
+        icon.src = "images/moon.png";
+      }
+    }
+
+  </script>
+  <script>
+    $(document).ready(function() {
+    var currentSrc = $('#Picture').attr('src');
+    if(currentSrc==null || currentSrc==""){       
+         $('#Picture').attr('src','http://i38.photobucket.com/albums/e149/eloginko/profile_male_large_zpseedb2954.jpg');
+    }
+
+
+    function readURL(input) {
+        if (input.files && input.files[0]) {
+            var reader = new FileReader();
+            
+            reader.onload = function (e) {
+                $('#Picture').attr('src', e.target.result);
+            }
+            
+            reader.readAsDataURL(input.files[0]);
+        }
+    }
+    
+    $("#imgInp").change(function(){
+        readURL(this);
+    });
+    
+    $("#Picture").click(function () {
+        $("#imgInp").click();
+    });
+
+});
+
+  </script>
+<!-- ?-------------------------------change icon----------------- -->
+
+  <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+  <script src="js/core/popper.min.js?ver=1.1.0"></script>
+  <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+  <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+  <script src="js/aos.js?ver=1.1.0"></script>
+  <script src="scripts/main.js?ver=1.1.0"></script>
+  <script src="scripts/myMain.js"></script>
+</body>
+
+</html>
